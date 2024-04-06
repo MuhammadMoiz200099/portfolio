@@ -17,7 +17,6 @@ import Cursor from "../components/Cursor";
 import PreLoader from "../components/PreLoader";
 import Certifications from "../views/Certifications";
 import certifications from "../utils/certifications";
-import WaterMark from "../components/WaterMark";
 
 const ViewElement = ({ children, id }) => (
   <div id={id} className="view-element">{children}</div>
@@ -28,7 +27,7 @@ export default function Home() {
     <>
       <PreLoader />
 
-      <Cursor />
+      {/* <Cursor /> */}
       <ParallaxProvider>
 
         <TopScrolledBar />
@@ -67,15 +66,14 @@ export default function Home() {
           <Certifications data={certifications} />
         </ViewElement>
 
-        <ViewElement id="contributions">
+        {/* <ViewElement id="contributions">
           <MapsContribution data={mapsContribution} />
-        </ViewElement>
+        </ViewElement> */}
 
         <ViewElement id="contact">
           <Contact data={contact} />
         </ViewElement>
 
-        <WaterMark />
       </ParallaxProvider>
     </>
   )

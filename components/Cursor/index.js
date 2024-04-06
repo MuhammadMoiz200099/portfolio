@@ -27,7 +27,6 @@ function Cursor() {
       <div
         // onClick={(event) => {
         //   // event.preventDefault();
-        //   console.log('clicking')
         // }}
         style={{
             // top: y+500,
