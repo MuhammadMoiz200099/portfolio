@@ -1,5 +1,5 @@
 <h1 align="center">
-    Muneeb Khan - Portfolio
+    Muhammad Moiz Siddique - Portfolio
 </h1>
 <p align="center">
   This personal portfolio website is developed by using <a href="https://www.netlify.com/" target="_blank">Next.js</a>.
@@ -56,7 +56,7 @@ Your app is ready to be deployed!
 
 Yes I've made this project **public** for letting others to fork and use it
 
-I would be more than happy if you give me credit at **@muneebwasikhan**
+I would be more than happy if you give me credit at **@muhammadmoiz200099**
 
 OpenSource contribution is something that makes internet more beautiful. So any Contributor who wants to make this website better can make contribution,which will be **greatly appreciated**.
 
@@ -68,4 +68,4 @@ OpenSource contribution is something that makes internet more beautiful. So any 
 
 Give a ⭐ if you like this website!
 
-<a href="https://www.buymeacoffee.com/muneebwasikhan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+<a href="https://www.buymeacoffee.com/muhammadmoizsiddique" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
