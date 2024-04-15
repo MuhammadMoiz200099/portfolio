@@ -19,7 +19,7 @@ const Contact = ({ data: {
     });
 
     useEffect(() => {
-        fetch('https://api.github.com/repos/Muneebwasikhan/portfolio')
+        fetch('https://api.github.com/repos/MuhammadMoiz200099/portfolio')
             .then(response => response.json())
             .then(json => {
                 const { stargazers_count, forks_count } = json;
@@ -58,19 +58,17 @@ const Contact = ({ data: {
                         </div>
                         <div onClick={handleBuiltByClick} className='ms-contact-git-section'>
                             <div>{designAndBuiltBy}</div>
-                            {!!(githubInfo.stars && githubInfo.forks) && (
-                                <div>
-                                    <span>
-                                        <Star />
-                                        <>{' '}{githubInfo.stars.toLocaleString()}</>
-                                    </span>
-                                    {' '}
-                                    <span>
-                                        <GitFork />
-                                        <>{' '}{githubInfo.forks.toLocaleString()}</>
-                                    </span>
-                                </div>
-                            )}
+                            <div>
+                                <span>
+                                    <Star />
+                                    <>{' '}{githubInfo?.stars?.toLocaleString()}</>
+                                </span>
+                                {' '}
+                                <span>
+                                    <GitFork />
+                                    <>{' '}{githubInfo?.forks?.toLocaleString()}</>
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
