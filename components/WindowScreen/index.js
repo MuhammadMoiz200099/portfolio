@@ -1,9 +1,9 @@
 import React, { Children } from 'react'
 import PropTypes from 'prop-types'
 
-const WindowScreen = ({ children, containerClassName }) => {
+const WindowScreen = ({ children, containerClassName, onClick }) => {
     return (
-        <div className={`mk-window-screen ${containerClassName}`}>
+        <div className={`mk-window-screen ${containerClassName}`} onClick={onClick}>
             <div className='mk-taskbar'>
                 <div className='mk-circles'>
                     <div className='mk-circle mk-circle1' />

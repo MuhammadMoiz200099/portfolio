@@ -4,6 +4,7 @@
 .mk-window-screen {
     border-radius: $defaultBorder;
     overflow: hidden;
+    cursor: pointer;
 
     .mk-taskbar {
         // height: 50px;

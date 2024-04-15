@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import WindowScreen from '../../components/WindowScreen'
 import HoverImage from '../../components/HoverImage'
 import ViewsTitle from '../../components/ViewsTitle';
+import { openLink } from "../../utils/methods";
 
 const WindowImage = ({ src }) => (
     <HoverImage
@@ -15,14 +16,17 @@ const WindowImage = ({ src }) => (
 const getSide = (index) => index % 2 ? 'left' : 'right'
 
 const SingleProject = (props) => {
-    const { image, index } = props
+    const { image, index, link } = props
     const side = getSide(index);
+    const handleOnClickWindow = () => {
+        openLink(link)
+    }
     return (
         <div className='mk-projects-single'>
             <div className='row'>
                 <div className='col-6 d-none d-lg-block'>
                     <div className=''>
-                        <WindowScreen containerClassName={`mk-projects-image-container mk-projects-image-container-${side}`}>
+                        <WindowScreen containerClassName={`mk-projects-image-container mk-projects-image-container-${side}`} onClick={() => handleOnClickWindow()}>
                             <WindowImage src={image} />
                         </WindowScreen>
                     </div>

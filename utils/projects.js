@@ -2,10 +2,23 @@ const projects = {
     heading: `Things I've Worked on`,
     list: [
         {
-            image: '/assets/projects/PIAIC.png',
+            image: '/assets/projects/socialchamp.png',
             label: 'Featured Project',
-            title: 'PIAIC Web/Portal',
-            description: 'The mission of PIAIC is to reshape Pakistan by revolutionizing education, research, and business by adopting latest, cutting-edge technologies.',
+            title: 'Social Champ IO',
+            link: 'https://www.socialchamp.io',
+            description: 'Social Champ is an innovative solution that helps you publish your content in an intelligent way to maximize exposure.',
+            techs: [
+                'Angular',
+                'Express Js',
+                'SQL/Azure',
+            ]
+        },
+        {
+            image: '/assets/projects/blacklion.png',
+            label: 'Featured Project',
+            title: 'Black lion Music Group',
+            link: 'https://www.blacklionapp.xyz',
+            description: 'Blacklion as a company with laser focus on music and technology, we have created this NEW products which are already disrupting the music industry in a big way!',
             techs: [
                 'React Js',
                 'Express Js',
@@ -13,45 +26,42 @@ const projects = {
             ]
         },
         {
-            image: '/assets/projects/digitalplattform.png',
+            image: '/assets/projects/bridgestone.png',
             label: 'Featured Project',
-            title: 'Digital Plattform',
-            description: 'A Platform that offers everything from marketing strategy and solving technical challenges to content creation for social media',
+            title: 'BridgeStone',
+            link: 'https://www.bridgestone.com',
+            description: 'BridgeStone is a company which provide the best quailty tyres for your car.',
             techs: [
-                'React Js',
+                'Angular',
                 'Express Js',
-                'GraphQl/Apollo',
-                'Mongodb',
+                'Sql Server'
             ]
         },
         {
-            image: '/assets/projects/declinica.png',
+            image: '/assets/projects/bright.png',
             label: 'Featured Project',
-            title: 'Declinica',
-            description: 'A Decentralised blockchain Designed for the medical community.',
+            title: `Bright Development`,
+            link: 'https://bright-development.com',
+            description: `A full-service digital agency offering best-in-class services ranging from business consulting, design, to cross-platform web & mobile development.`,
             techs: [
                 'React Js',
-                'Web3 Js',
+                'Nest JS',
+                'Mongo DB'
             ]
         },
         {
-            image: '/assets/projects/rolazdoro.png',
+            image: '/assets/projects/gather360.png',
             label: 'Featured Project',
-            title: `Rolaz D'oro`,
-            description: `One of the main objective of Rolaz D'ORO is to make gold easily accessible to even small investors in a trusted and secure environment, with the peace of mind that their investments are traceable and could be claimed at any stated time.`,
+            title: `Think Evolve Solve`,
+            link: 'https://thinkevolvesolve.ie',
+            description: `We help AI tools do what they do best, by supplying them with the right data.`,
             techs: [
-                'React Js',
+                'Angular',
                 'Web3 Js',
-            ]
-        },
-        {
-            image: '/assets/projects/chainracers.png',
-            label: 'Featured Project',
-            title: `Chainracers`,
-            description: `ChainRacers is a play-to-earn NFT Race Battle Game. The GammaVerse, our growing MetaVerse featuring characters, worlds, arenas, and more, will kick things off with 8,888 unique generative NFT sets. Each set will include a NFT Racer and NFT Rider.`,
-            techs: [
-                'React Js',
-                'Web3 Js',
+                'Express Js',
+                'Python',
+                'Three.js',
+                'SQL Server'
             ]
         }
     ]
