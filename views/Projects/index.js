@@ -8,7 +8,7 @@ import { openLink } from "../../utils/methods";
 const WindowImage = ({ src }) => (
     <HoverImage
         showFilter
-        imageClassName='mk-image'
+        imageClassName='ms-image'
         src={src}
     />
 )
@@ -22,11 +22,11 @@ const SingleProject = (props) => {
         openLink(link)
     }
     return (
-        <div className='mk-projects-single'>
+        <div className='ms-projects-single'>
             <div className='row'>
                 <div className='col-6 d-none d-lg-block'>
                     <div className=''>
-                        <WindowScreen containerClassName={`mk-projects-image-container mk-projects-image-container-${side}`} onClick={() => handleOnClickWindow()}>
+                        <WindowScreen containerClassName={`ms-projects-image-container ms-projects-image-container-${side}`} onClick={() => handleOnClickWindow()}>
                             <WindowImage src={image} />
                         </WindowScreen>
                     </div>
@@ -45,26 +45,26 @@ const ProjectTextSide = (props) => {
     return (
         <div
             data-aos={`fade-down-${side}`}
-            className={`mk-projects-text-side mk-projects-text-side-${side}`}>
+            className={`ms-projects-text-side ms-projects-text-side-${side}`}>
             <div
                 data-aos={`zoom-in-${side}`}
-                className='mk-projects-text-featured'>{label}</div>
+                className='ms-projects-text-featured'>{label}</div>
             <div
                 data-aos={`zoom-in-${side}`}
-                className='mk-projects-text-title'>{title}</div>
+                className='ms-projects-text-title'>{title}</div>
             <div
                 data-aos={`zoom-in-${side}`}
-                className='mk-projects-text-description'>
+                className='ms-projects-text-description'>
                 {description}
                 <div className='mt-4 d-block d-lg-none'>
-                    <WindowScreen containerClassName={`mk-text-image-container`}>
+                    <WindowScreen containerClassName={`ms-text-image-container`}>
                         <WindowImage src={image} />
                     </WindowScreen>
                 </div>
             </div>
             <div
                 data-aos={`zoom-in-${side}`}
-                className='mk-projects-text-tecs'>
+                className='ms-projects-text-tecs'>
                 {techs.map((tech, i) => `${tech} ${techs.length - 1 !== i ? ' | ' : ''}`)}
             </div>
         </div>
@@ -76,9 +76,9 @@ const Projects = ({ data: {
     list
 } }) => {
     return (
-        <div className='mk-projects'>
+        <div className='ms-projects'>
             <div className='container'>
-                <div className='mk-projects-container'>
+                <div className='ms-projects-container'>
                     <ViewsTitle text={heading} />
                     <div className='row justify-content-center'>
                         {(list || []).map((project, i) => (

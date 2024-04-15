@@ -1,7 +1,7 @@
 @import './theme.scss';
 
 
-.mk-cursor-line-box {
+.ms-cursor-line-box {
     position: fixed;
     z-index: 100;
 
@@ -14,31 +14,31 @@
     width: 100%;
     height: 100%;
 
-    .mk-cursor-line-right-1,
-    .mk-cursor-line-right-2,
-    .mk-cursor-line-bottom-1,
-    .mk-cursor-line-bottom-2 {
+    .ms-cursor-line-right-1,
+    .ms-cursor-line-right-2,
+    .ms-cursor-line-bottom-1,
+    .ms-cursor-line-bottom-2 {
         position: fixed;
         transform: scale(0);
         opacity: 0.5;
         transition: all 100ms linear;
     }
 
-    .mk-cursor-line-right-1 {
+    .ms-cursor-line-right-1 {
         border-top: 1px dashed $themeColor4;;
         transform-origin: 0 0;
         width: 100%;
         height: 0;
     }
 
-    .mk-cursor-line-right-2 {
+    .ms-cursor-line-right-2 {
         border-top: 1px dashed $themeColor4;;
         transform-origin: top right;
         width: 100%;
         height: 0;
     }
 
-    .mk-cursor-line-bottom-1 {
+    .ms-cursor-line-bottom-1 {
         border-left: 1px dashed $themeColor4;;
         transform-origin: 0 0;
         // background-color: pink;
@@ -46,14 +46,14 @@
         height: 100%;
     }
 
-    .mk-cursor-line-bottom-2 {
+    .ms-cursor-line-bottom-2 {
         border-left: 1px dashed $themeColor4;;
         transform-origin: top right;
         width: 0;
         height: 100%;
     }
 
-    .mk-cursor-line {
+    .ms-cursor-line {
         // position: relative;
         transform: scale(0.001);
         width: 100%;
@@ -61,19 +61,19 @@
         transform-origin: 0 0;
     }
 
-    .mk-cursor-line1 {
+    .ms-cursor-line1 {
         background-color: $themeColor4;;
         transition: all 100ms linear;
     }
 
-    .mk-cursor-line2 {
+    .ms-cursor-line2 {
         background-color: $themeColor4;;
         transition: all 100ms linear;
         transform-origin: bottom right;
     }
 
 
-    // .mk-cursor-line1 {
+    // .ms-cursor-line1 {
     //     transform: scale(0.1);
     //     width: 100%;
     //     height: 100%;
@@ -83,15 +83,15 @@
     // background-color: red;
     &:active {
 
-        .mk-cursor-line-right-1,
-        .mk-cursor-line-right-2,
-        .mk-cursor-line-bottom-1,
-        .mk-cursor-line-bottom-2 {
+        .ms-cursor-line-right-1,
+        .ms-cursor-line-right-2,
+        .ms-cursor-line-bottom-1,
+        .ms-cursor-line-bottom-2 {
             pointer-events: none;
             transform: scale(1);
         }
 
-        .mk-cursor-line1 {
+        .ms-cursor-line1 {
 
             transform: scale(1);
             border-top: 1px dashed $themeColor4;
@@ -99,7 +99,7 @@
             opacity: 0.5;
         }
 
-        .mk-cursor-line2 {
+        .ms-cursor-line2 {
 
             transform: scale(1);
             border-top: 1px dashed $themeColor4;
@@ -116,7 +116,7 @@
 }
 
 
-// .mk-cursor-line1 {
+// .ms-cursor-line1 {
 //     width: 100%;
 //     height: 2px;
 
@@ -126,7 +126,7 @@
 // }
 
 
-// .mk-cursor-line2 {
+// .ms-cursor-line2 {
 //     height: 100%;
 //     width: 2px;
 

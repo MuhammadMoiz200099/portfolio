@@ -32,7 +32,7 @@ export default function Gooery() {
   // makes elements transient.
   return (
     <div
-     className='mk-gooery'>
+     className='ms-gooery'>
       <svg style={{ position: 'absolute', width: 0, height: 0 }}>
         <filter id="goo">
           <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="30" />

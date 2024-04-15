@@ -1,10 +1,10 @@
 @import './theme.scss';
 
-.mk-graphics {
+.ms-graphics {
     width: 100vw;
     min-height: 100vh;
 
-    .mk-graphics-top-background {
+    .ms-graphics-top-background {
         height: 400px;
         background-color: $themeColor3;
         width: 100vw;
@@ -12,7 +12,7 @@
         left: 0;
     }
 
-    .mk-graphics-container {
+    .ms-graphics-container {
         max-width: 900px;
         margin: auto;
         min-height: 100vh;
@@ -22,7 +22,7 @@
         padding: 100px 0 100px 0;
         position: relative;
 
-        .mk-single-image-container {
+        .ms-single-image-container {
             width: 100%;
             border-radius: $defaultBorder;
             background-repeat: no-repeat;
@@ -38,10 +38,10 @@
 }
 
 
-.mk-hover-color {
+.ms-hover-color {
     position: relative;
 
-    .mk-hover-color-filter {
+    .ms-hover-color-filter {
         width: 100%;
         height: 100%;
         position: absolute;
@@ -52,7 +52,7 @@
     }
 
         &:hover {
-            .mk-single-image-container {
+            .ms-single-image-container {
                 filter: grayscale(0);
                 mix-blend-mode: normal;
         transition: $allTransitoin3s;

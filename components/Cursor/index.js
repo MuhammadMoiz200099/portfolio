@@ -34,17 +34,17 @@ function Cursor() {
             top: y,
             left: x,
           }}
-        className='mk-cursor-line-box'
+        className='ms-cursor-line-box'
       >
         {/* <div
-          className='mk-cursor-line mk-cursor-line1' /> */}
-          <div className='mk-cursor-line-right-1' />
-          {/* <div className='mk-cursor-line-right-2' /> */}
+          className='ms-cursor-line ms-cursor-line1' /> */}
+          <div className='ms-cursor-line-right-1' />
+          {/* <div className='ms-cursor-line-right-2' /> */}
 
-          <div className='mk-cursor-line-bottom-1' />
-          {/* <div className='mk-cursor-line-bottom-2' /> */}
+          <div className='ms-cursor-line-bottom-1' />
+          {/* <div className='ms-cursor-line-bottom-2' /> */}
         {/* <div */}
-          {/* // className='mk-cursor-line mk-cursor-line2' /> */}
+          {/* // className='ms-cursor-line ms-cursor-line2' /> */}
       </div>
       <AnimatedCursor
         innerSize={4}

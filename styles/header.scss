@@ -1,7 +1,7 @@
 @import './theme.scss';
 
 
-.mk-header {
+.ms-header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,7 @@
         fill: $themeColor4;
     }
 
-    .mk-header-container {
+    .ms-header-container {
         height: calc($headerHeight - $scrolledBarHeight);
         width: 95%;
         display: flex;
@@ -47,7 +47,7 @@
             width: 90%;
         }
 
-        .mk-logo-bg {
+        .ms-logo-bg {
             display: flex;
             background: $themeColor4;
             border-radius: 50%;
@@ -56,13 +56,13 @@
         }
     }
 
-    .mk-header-list {
+    .ms-header-list {
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 13px;
 
-        .mk-header-list-label {
+        .ms-header-list-label {
             margin: 0 15px;
             color: $themeColor3;
         }
@@ -81,7 +81,7 @@
         }
     }
 
-    .mk-header-menu {
+    .ms-header-menu {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -91,14 +91,14 @@
         font-weight: 600;
         line-height: 2.5;
 
-        .mk-hamburger-icon {
+        .ms-hamburger-icon {
             position: relative;
             z-index: 2;
             transition: all 500ms cubic-bezier(1, -0.04, 0, 1.03);
 
         }
 
-        .mk-hamburger {
+        .ms-hamburger {
             position: absolute;
             background: $themeColor3;
             color: $themeColor3;
@@ -115,7 +115,7 @@
             text-transform: uppercase;
         }
 
-        .mk-hamburger-item-bg {
+        .ms-hamburger-item-bg {
 
             content: "";
             position: relative;
@@ -125,7 +125,7 @@
             border-radius: 50%;
         }
 
-        .mk-hamburger-item {
+        .ms-hamburger-item {
             position: absolute;
             border-radius: 50%;
             display: flex;
@@ -141,18 +141,18 @@
         }
     }
 
-    .mk-header-menu {
-        .mk-header-menu-wrapper {}
+    .ms-header-menu {
+        .ms-header-menu-wrapper {}
     }
 
-    .mk-header-menu-visible {
-        .mk-hamburger {
+    .ms-header-menu-visible {
+        .ms-hamburger {
             transform: scale(1) rotate(30deg);
             color: $themeColor2;
             opacity: 1;
         }
 
-        .mk-hamburger-icon {
+        .ms-hamburger-icon {
             transform: rotate(3600deg);
             stroke: $themeColor2;
             fill: $themeColor2;

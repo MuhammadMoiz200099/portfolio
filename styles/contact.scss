@@ -1,10 +1,10 @@
 @import './theme.scss';
 
 
-.mk-contact {
+.ms-contact {
     width: 100vw;
 
-    .mk-contact-zebra-img {
+    .ms-contact-zebra-img {
         height: 150px;
         width: 1000%;
         background-size: contain;
@@ -16,23 +16,23 @@
         }
     }
 
-    .mk-contact-box {
+    .ms-contact-box {
         background-color: $themeColor2;
         text-align: center;
 
-        .mk-contact-box-width {
+        .ms-contact-box-width {
             max-width: 600px;
             padding: 100px 0 20px 0;
         }
 
-        .mk-contact-label {
+        .ms-contact-label {
             font-size: clamp(15px, 2vw, 20px);
             line-height: 1.5;
             margin-bottom: 20px;
             color: $themeColor4;
         }
 
-        .mk-contact-title {
+        .ms-contact-title {
             font-size: clamp(35px, 5vw, 50px);
             line-height: 1.5;
             margin-bottom: 20px;
@@ -41,18 +41,18 @@
 
         }
 
-        .mk-contact-text {
+        .ms-contact-text {
             font-size: clamp(15px, 2vw, 20px);
             line-height: 1.5;
             color: $themeColor3;
         }
 
-        .mk-contact-button {
+        .ms-contact-button {
             margin-top: 50px;
         }
     }
 
-    .mk-contact-git-section {
+    .ms-contact-git-section {
         margin-top: 130px;
         font-size: 14px;
         color: $themeColor3;

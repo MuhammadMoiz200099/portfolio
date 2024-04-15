@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import MuneebKhan from '../MuneebKhan';
+import MoizSiddique from '../MoizSiddique';
 
 const PreLoader = () => {
     const [loader, handleLoader] = useState(true);
@@ -8,14 +8,14 @@ const PreLoader = () => {
             const root = document.documentElement;
             root.style.setProperty('--scrollBarWidth', '8px');
             handleLoader(false)
-        }, 3000)
+        }, 1500)
     }, [])
 
     return (
-        <div className={`mk-pre-loader ${loader ? 'mk-pre-loader-enabled' : 'mk-pre-loader-disabled'}`}>
-            <div className='mk-pre-loader-boarder' />
-            <div className='mk-pre-loader-container'>
-                <MuneebKhan />
+        <div className={`ms-pre-loader ${loader ? 'ms-pre-loader-enabled' : 'ms-pre-loader-disabled'}`}>
+            <div className='ms-pre-loader-boarder' />
+            <div className='ms-pre-loader-container'>
+                <MoizSiddique />
             </div>
         </div>
     )

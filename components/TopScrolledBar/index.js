@@ -18,8 +18,8 @@ const TopScrolledBar = props => {
     }
 
     return (
-        <div className='mk-top-scrolled'>
-            <div className='mk-top-scrolled-highlight'
+        <div className='ms-top-scrolled'>
+            <div className='ms-top-scrolled-highlight'
             style={{
                 transform: `translateX(${-100 + scrolled}%)`
             }}

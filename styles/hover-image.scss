@@ -1,9 +1,9 @@
 @import './theme.scss';
 
-.mk-hover-image {
+.ms-hover-image {
     position: relative;
 
-    .mk-hover-profile {
+    .ms-hover-profile {
         border-radius: $defaultBorder;
         filter: grayscale(1);
         mix-blend-mode: multiply;
@@ -11,7 +11,7 @@
         transition: $allTransitoin3s;
     }
 
-    .mk-hover-image-border {
+    .ms-hover-image-border {
         width: 100%;
         height: 100%;
         position: absolute;
@@ -22,7 +22,7 @@
         transition: $allTransitoin3s;
     }
 
-    .mk-hover-image-filter {
+    .ms-hover-image-filter {
         width: 100%;
         height: 100%;
         position: absolute;
@@ -33,12 +33,12 @@
     }
 
         &:hover {
-            .mk-hover-profile {
+            .ms-hover-profile {
                 filter: grayscale(0);
                 mix-blend-mode: normal;
             }
 
-            .mk-hover-image-border {
+            .ms-hover-image-border {
                 transform: translateX(5%) translateY(5%);
             }
         }

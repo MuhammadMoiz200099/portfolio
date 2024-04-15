@@ -91,7 +91,7 @@ $variants: ("": ("font-size": 14px, "padding": 1.25rem 1.75rem),
 
 @each $name,
 $variant in $variants {
-  .mk-button#{$name} {
+  .ms-button#{$name} {
     background-color: transparent;
     line-height: 1;
     border: 1px solid $themeColor4;
@@ -145,7 +145,7 @@ $variant in $variants {
   align-items: center;
 }
 
-.mk-assets-hover-filter {
+.ms-assets-hover-filter {
   // background-color: orange;
   position: relative;
 

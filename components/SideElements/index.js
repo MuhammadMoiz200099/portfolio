@@ -8,13 +8,13 @@ import Twitter from '../SVGs/Twitter'
 
 const SideElementsItem = ({ items, position }) => {
     return (
-        <div className={`mk-side-elements-container mk-side-elements-${position}`} >
+        <div className={`ms-side-elements-container ms-side-elements-${position}`} >
             {(items || []).map((item, i) => (
-                <div key={i} className='mk-side-elements-item'>
+                <div key={i} className='ms-side-elements-item'>
                     {item}
                 </div>
             ))}
-            <div className='mk-side-elements-line' />
+            <div className='ms-side-elements-line' />
         </div>
     )
 }
@@ -25,7 +25,7 @@ const SideElements = ({ data: {
     handleIconClick,
 } }) => {
     return (
-        <div className='mk-side-elements'>
+        <div className='ms-side-elements'>
             {/* left side  */}
             <SideElementsItem
                 position="left"
@@ -43,7 +43,7 @@ const SideElements = ({ data: {
                 items={[
                     <div
                         onClick={emailButton?.onClick}
-                        key="website" className='mk-side-elements-text'>
+                        key="website" className='ms-side-elements-text'>
                         {emailButton?.label}
                     </div>,
                 ]}

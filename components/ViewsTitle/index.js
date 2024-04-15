@@ -6,12 +6,12 @@ const ViewsTitle = ({ text = '', textClassName, lineClassName, containerClassNam
     return (
         <div
         data-aos={`zoom-in-right`}
-         className={`mk-views-title-container ${containerClassName || ''}`} >
-            <div className={`mk-views-title-text ${textClassName || ''}`}>
+         className={`ms-views-title-container ${containerClassName || ''}`} >
+            <div className={`ms-views-title-text ${textClassName || ''}`}>
                 {text}
             </div>
-            <div className={`mk-views-title-line-container`}>
-                <div className={`mk-views-title-line ${lineClassName || ''}`} />
+            <div className={`ms-views-title-line-container`}>
+                <div className={`ms-views-title-line ${lineClassName || ''}`} />
             </div>
         </div>
     )

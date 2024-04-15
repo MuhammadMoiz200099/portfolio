@@ -1,18 +1,18 @@
 @import './theme.scss';
 
-.mk-side-elements {
+.ms-side-elements {
 
     @media only screen and (max-width: 800px) {
         display: none;
 
     }
 
-    .mk-side-elements-container {
+    .ms-side-elements-container {
         position: fixed;
         bottom: 0;
         z-index: 1;
 
-        .mk-side-elements-item {
+        .ms-side-elements-item {
             margin: 20px 0;
             cursor: pointer;
 
@@ -20,7 +20,7 @@
                 stroke: $themeColor3;
             }
 
-            .mk-side-elements-text {
+            .ms-side-elements-text {
                 color: $themeColor3;
                 letter-spacing: 2px;
                 writing-mode: vertical-rl;
@@ -31,13 +31,13 @@
                     stroke: $themeColor4;
                 }
 
-                .mk-side-elements-text {
+                .ms-side-elements-text {
                     color: $themeColor4;
                 }
             }
         }
 
-        .mk-side-elements-line {
+        .ms-side-elements-line {
             display: block;
             width: 1px;
             height: 90px;
@@ -46,11 +46,11 @@
         }
     }
 
-    .mk-side-elements-left {
+    .ms-side-elements-left {
         left: 2.5%;
     }
 
-    .mk-side-elements-right {
+    .ms-side-elements-right {
         right: 2.5%;
     }
 }

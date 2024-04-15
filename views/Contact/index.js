@@ -36,27 +36,27 @@ const Contact = ({ data: {
         translateX: [-50, 0]
     });
     return (
-        <div className='mk-contact'>
+        <div className='ms-contact'>
             <div
                 ref={ref}
-                className='mk-contact-zebra-img'
+                className='ms-contact-zebra-img'
                 style={{
                     backgroundImage: `url(${'/assets/arrow-sample.svg'})`,
                 }}>
 
             </div>
-            <div className='mk-contact-box'>
+            <div className='ms-contact-box'>
                 <div className='container flex-center flex-column'>
-                    <div className='mk-contact-box-width'>
-                        <div className='mk-contact-label'>{label}</div>
-                        <div className='mk-contact-title'>{heading} </div>
-                        <div className='mk-contact-text'>{description}</div>
-                        <div className='mk-contact-button'>
-                            <button onClick={button?.onClick} className='mk-button'>
+                    <div className='ms-contact-box-width'>
+                        <div className='ms-contact-label'>{label}</div>
+                        <div className='ms-contact-title'>{heading} </div>
+                        <div className='ms-contact-text'>{description}</div>
+                        <div className='ms-contact-button'>
+                            <button onClick={button?.onClick} className='ms-button'>
                                 {button?.label}
                             </button>
                         </div>
-                        <div onClick={handleBuiltByClick} className='mk-contact-git-section'>
+                        <div onClick={handleBuiltByClick} className='ms-contact-git-section'>
                             <div>{designAndBuiltBy}</div>
                             {!!(githubInfo.stars && githubInfo.forks) && (
                                 <div>

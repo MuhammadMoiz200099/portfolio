@@ -1,12 +1,12 @@
 @import './theme.scss';
 
 
-.mk-window-screen {
+.ms-window-screen {
     border-radius: $defaultBorder;
     overflow: hidden;
     cursor: pointer;
 
-    .mk-taskbar {
+    .ms-taskbar {
         // height: 50px;
         display: flex;
         justify-content: center;
@@ -15,35 +15,35 @@
 
         $circleSize: 12px;
 
-        .mk-circles {
+        .ms-circles {
             display: flex;
         }
 
-        .mk-circle {
+        .ms-circle {
             width: $circleSize;
             height: $circleSize;
             margin: 0 5px;
             border-radius: 50%;
         }
 
-        .mk-circle1 {
+        .ms-circle1 {
             background-color: #ef4444;
         }
 
-        .mk-circle2 {
+        .ms-circle2 {
             background-color: #f59e0b;
         }
 
-        .mk-circle3 {
+        .ms-circle3 {
             background-color: #10b981;
         }
 
-        .mk-url {
+        .ms-url {
             flex: 1;
             display: flex;
             justify-content: center;
 
-            .mk-url-box {
+            .ms-url-box {
                 background-color: #00000030;
                 font-size: 14px;
                 padding: 5px;

@@ -1,6 +1,6 @@
 @import './theme.scss';
 
-.mk-pre-loader {
+.ms-pre-loader {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@
     position: fixed;
     z-index: 100;
 
-    .mk-pre-loader-boarder {
+    .ms-pre-loader-boarder {
         background-color: $themeColor1;
         height: 100%;
         width: 100%;
@@ -17,7 +17,7 @@
         // border: 1px solid $themeColor3;
     }
 
-    .mk-pre-loader-container {
+    .ms-pre-loader-container {
         width: 100vw;
         height: 100vw;
         max-width: 900px;
@@ -29,9 +29,9 @@
     }
 }
 
-.mk-pre-loader-enabled {}
+.ms-pre-loader-enabled {}
 
-.mk-pre-loader-disabled {
+.ms-pre-loader-disabled {
     height: 0;
     opacity: 0;
     transition: all 1s cubic-bezier(1, -0.6, 0, 1.92);

@@ -1,10 +1,10 @@
 @import './theme.scss';
 
-.mk-certifications {
+.ms-certifications {
     width: 100vw;
     min-height: 100vh;
 
-    .mk-certifications-top-background {
+    .ms-certifications-top-background {
         height: 400px;
         background-color: $themeColor3;
         width: 100vw;
@@ -12,7 +12,7 @@
         left: 0;
     }
 
-    .mk-certifications-container {
+    .ms-certifications-container {
         max-width: 1000px;
         margin: auto;
         min-height: 100vh;
@@ -22,10 +22,10 @@
         padding: 100px 0 100px 0;
         position: relative;
 
-        .mk-certifications-item {
+        .ms-certifications-item {
 
 
-            .mk-item-body {
+            .ms-item-body {
                 background-color: $themeColor2;
                 width: 100%;
                 border-radius: $defaultBorder;
@@ -34,11 +34,11 @@
                 height: 100%;
                 flex-direction: column;
 
-                .mk-item-head {
+                .ms-item-head {
                     display: flex;
                     justify-content: space-between;
 
-                    .mk-item-logo {
+                    .ms-item-logo {
                         width: 50px;
                         height: 50px;
                         background-position: center;
@@ -52,7 +52,7 @@
 
                 }
 
-                .mk-item-title {
+                .ms-item-title {
                     margin: 30px 0px 0px;
                     font-size: clamp(24px, 5vw, 28px);
                     font-weight: 700;
@@ -60,7 +60,7 @@
                     color: $themeColor4;
                 }
 
-                .mk-item-platform {
+                .ms-item-platform {
                     margin: 15px 0px 0px;
                     font-size: clamp(18px, 3.7vw, 21px);
                     font-weight: 600;
@@ -68,7 +68,7 @@
                     color: $themeColor4;
                 }
 
-                .mk-item-date {
+                .ms-item-date {
                     margin: 30px 0px 0px;
                     font-size: clamp(12px, 2.5vw, 14px);
                     font-weight: 600;
@@ -78,11 +78,11 @@
 
 
                 &:hover {
-                    .mk-item-title {
+                    .ms-item-title {
                         color: $themeColor3;
                     }
 
-                    .mk-item-head {
+                    .ms-item-head {
                         svg {
                             stroke: $themeColor3;
                         }
@@ -92,7 +92,7 @@
             }
         }
 
-        .mk-single-image-container {
+        .ms-single-image-container {
             width: 100%;
             margin: 12px 0;
             border-radius: $defaultBorder;
@@ -108,10 +108,10 @@
     }
 }
 
-.mk-hover-color {
+.ms-hover-color {
     position: relative;
 
-    .mk-hover-color-filter {
+    .ms-hover-color-filter {
         width: 100%;
         height: 100%;
         position: absolute;
@@ -122,7 +122,7 @@
     }
 
     &:hover {
-        .mk-single-image-container {
+        .ms-single-image-container {
             filter: grayscale(0);
             mix-blend-mode: normal;
             transition: $allTransitoin3s;

@@ -6,7 +6,7 @@
 </p>
 <p align="center">
   Check Demo:
-  <a href="http://mk-portfolio-stage.s3-website.ap-south-1.amazonaws.com/" target="_blank">Personal Portfolio</a>
+  <a href="" target="_blank">Personal Portfolio</a>
 </p>
 
 <div align="center">

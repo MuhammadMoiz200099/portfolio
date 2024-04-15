@@ -12,31 +12,31 @@ const Outer = ({ data: {
     button
 } }) => {
     return (
-        <div className='mk-outer'>
+        <div className='ms-outer'>
             <div className='container'>
-                <div className='mk-outer-container d-flex justify-content-between align-items-center'>
-                    <div className='mk-outer-text'>
-                        <div className='mk-outer-heading'>
+                <div className='ms-outer-container d-flex justify-content-between align-items-center'>
+                    <div className='ms-outer-text'>
+                        <div className='ms-outer-heading'>
                             {title1}
                         </div>
-                        <div className='mk-outer-heading'>
+                        <div className='ms-outer-heading'>
                             {title2}
                         </div>
-                        <div className='mk-outer-heading2'>
+                        <div className='ms-outer-heading2'>
                             <DecryptText
                                 values={decrypTexts}
                             />
                         </div>
-                        <div className='mk-outer-description'>
+                        <div className='ms-outer-description'>
                             {desciption}
                         </div>
-                        <div className='mk-outer-contact'>
-                            <button onClick={button?.onClick} className='mk-button'>
+                        <div className='ms-outer-contact'>
+                            <button onClick={button?.onClick} className='ms-button'>
                                 {button?.label}
                             </button>
                         </div>
                     </div>
-                    <div className='mk-outer-gooery'>
+                    <div className='ms-outer-gooery'>
                         <Gooery />
                     </div>
                 </div>

@@ -3,15 +3,15 @@ import PropTypes from 'prop-types'
 
 const WindowScreen = ({ children, containerClassName, onClick }) => {
     return (
-        <div className={`mk-window-screen ${containerClassName}`} onClick={onClick}>
-            <div className='mk-taskbar'>
-                <div className='mk-circles'>
-                    <div className='mk-circle mk-circle1' />
-                    <div className='mk-circle mk-circle2' />
-                    <div className='mk-circle mk-circle3' />
+        <div className={`ms-window-screen ${containerClassName}`} onClick={onClick}>
+            <div className='ms-taskbar'>
+                <div className='ms-circles'>
+                    <div className='ms-circle ms-circle1' />
+                    <div className='ms-circle ms-circle2' />
+                    <div className='ms-circle ms-circle3' />
                 </div>
-                <div className='mk-url'>
-                    <div className='mk-url-box'>
+                <div className='ms-url'>
+                    <div className='ms-url-box'>
                         {'http://localhost:1234'}
                     </div>
                 </div>

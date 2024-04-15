@@ -1,17 +1,17 @@
 @import './theme.scss';
 
-.mk-maps {
+.ms-maps {
     width: 100vw;
     min-height: 100vh;
 
-    .mk-maps-container {
+    .ms-maps-container {
         max-width: 700px;
         width: 100%;
         padding: 100px 0;
         margin: auto;
         flex: 1;
 
-        .mk-box {
+        .ms-box {
             background-color: $themeColor2;
             width: 100%;
             height: auto;
@@ -19,7 +19,7 @@
             margin: 0 0 100px 0;
             border-radius: $defaultBorder;
 
-            .mk-box-heading {
+            .ms-box-heading {
                 // margin-bottom: 12px;
                 font-size: clamp(20px, 6vw, 30px);
                 font-weight: 700;
@@ -28,7 +28,7 @@
                 color: $themeColor3;
             }
 
-            .mk-box-subheading {
+            .ms-box-subheading {
 
                 // margin-bottom: 20px;
                 font-size: clamp(14px, 4vw, 18px);
@@ -39,7 +39,7 @@
             }
 
 
-            .mk-box-para {
+            .ms-box-para {
 
                 // margin-bottom: 20px;
                 font-size: clamp(14px, 6vw, 16px);
@@ -50,14 +50,14 @@
 
             }
 
-            .mk-box-iframe-wrapper {
+            .ms-box-iframe-wrapper {
                 position: relative;
                 padding-bottom: 56.25%;
                 /* 16:9 */
                 height: 0;
                 margin-top: 8%;
 
-                .mk-box-iframe {
+                .ms-box-iframe {
                     position: absolute;
                     top: 0;
                     left: 0;
@@ -70,7 +70,7 @@
 
         }
 
-        .mk-gsv-logo {
+        .ms-gsv-logo {
             width: 100%;
         }
 
