@@ -68,4 +68,4 @@ OpenSource contribution is something that makes internet more beautiful. So any 
 
 Give a ⭐ if you like this website!
 
-<a href="https://www.buymeacoffee.com/muhammadmoizsiddique" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+<a href="https://www.buymeacoffee.com/muhammadmoj" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
