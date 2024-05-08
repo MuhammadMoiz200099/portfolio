@@ -1,7 +1,7 @@
 import { openLink } from "./methods"
 
 const outer = {
-    title1:  `Assalam o Alikum, I'm`,
+    title1:  `Hi, I'm`,
     title2: 'Muhammad Moiz Siddique',
     decrypTexts: [
         'A Software Engineer',
