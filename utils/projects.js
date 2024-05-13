@@ -63,6 +63,21 @@ const projects = {
                 'Three.js',
                 'SQL Server'
             ]
+        },
+        {
+            image: '/assets/projects/compro.png',
+            label: 'Featured Project',
+            title: `Compro Ventures`,
+            link: 'https://www.comproventures.com',
+            description: `A portfolio for a client to run their PPC and use the website for thier business purposes.`,
+            techs: [
+                'Html',
+                'Css',
+                'Javascript',
+                'JQuery',
+                'Lightbox',
+                'Bootstrap'
+            ]
         }
     ]
 }
